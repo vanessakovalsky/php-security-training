@@ -36,7 +36,11 @@ identifiants par défaut : bee/bug
 
 * Pour chaque bug, noter le résultat que vous obtenez et le risque que cela présente
 
-
+<details>
+    <summary>De l'aide pour Hacker ?</summary>
+    * https://jaiguptanick.github.io/Blog/blog/Walkthrough_of_bWAPP_solutions_A1_injection_writeups/ 
+    * https://hackbotone.com/cross-site-scripting-reflected-ajax-json-b280c1777e88 
+</details>
 
 ## Protection contre les failles
 
