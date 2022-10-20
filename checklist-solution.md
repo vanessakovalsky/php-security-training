@@ -47,6 +47,30 @@
 
 ### Solutions de protection
 
-- Configuration des variables du php.ini : desactivation des fonctions dangereuses et non nécessaires, sécurisation des temps d'execution, mémoire maximum...
+- Configuration des variables du php.ini : désactivation des fonctions dangereuses et non nécessaires, sécurisation des temps d'execution, mémoire maximum...
 - Configuration d'apache : empêcher l'attaquant de lister les répertoires, d'afficher les informations non nécessaire
 - Configuration des utilisateurs systèmes / BDD et limitations de leurs permissions au strict minimum nécessaire
+
+
+## Gestion de l'Authentification et droits d'accès
+
+### Failles exploitables
+
+- man in the middle : récupération du cookie de session
+- failles sur le chiffrement (sha1)
+- compromission des clés de salage 
+- brute force pour se connecter 
+- accès à des pages / fonctionnalités non prévus
+
+### Solutions de protection
+
+- Vérifier en plus du cookie que l'IP de la requête correspond à l'IP de création de la session
+- Utiliser des algos de chiffrement sécurisé (SHA256)
+- Ajout de log de connexion / déconnexion
+- Prévenir l'utilisateur lors d'une nouvelle connexion depuis un périphérique inconnu (nécessite le stockage des données des endroits de connexions, /!\ à le signaler pour respecter RGPD )
+- Rendre aléatoire et spécifique la clé de salage 
+- Récupérer les profils / roles lors de la connexion 
+- Délais entre les connexions ou nombre de connexion
+- Limite du nombre de tentatives de connexion par login / IP 
+- Double authentification (Multi Factor Authentication)
+- 
