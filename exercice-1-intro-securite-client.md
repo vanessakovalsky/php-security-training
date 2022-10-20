@@ -22,7 +22,7 @@ Cet exercice a pour objectifs :
 * Cliquer sur 'here' pour installer bWAPP. Cela créera la structure de la base de données et la remplira
 * Aller sur la page de connexion: 	exemple: http://localhost/bWAPP/login.php
 * Se connecter avec les identifiants par défaut ou créer un nouvel utilisateur
-identifiants par défaut : bee/bug
+    * identifiants par défaut : bee/bug
 * Vous êtes prêt à utiliser l'application
 
 ## Exploitation des failles

@@ -19,6 +19,14 @@ Cet exercice a pour objectifs :
 
 * Pour chaque bug, noter le résultat que vous obtenez et le risque que cela présente
 
+<details>
+    <summary>De l'aide pour Hacker ?</summary>
+    - https://medium.com/@grep_security/broken-authentication-and-session-management-part-%E2%85%B0-50e760c9f599 
+    
+    - https://infosecgirls.gitbook.io/infosecgirls-training/v/appsec/web-application-pentesting/a2-broken-authentication-and-session/broken-authentication-with-bwapp
+
+    - 
+</details>
 
 ## Protection contre les failles
 
